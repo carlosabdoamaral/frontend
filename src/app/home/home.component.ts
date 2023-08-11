@@ -22,12 +22,6 @@ import { AccountService } from '../service/account.service';
 export class HomeComponent {
     account: Account | null = null;
     enterprises: Enterprise[] = [];
-    accountConfigFiles: string[] = [
-        'account',
-        'course',
-        'experiences',
-        'enterprise',
-    ];
 
     constructor(private accountService: AccountService) {
         this.account = this.accountService.getAaccountInfos();
