@@ -1,0 +1,30 @@
+.accordion {
+    padding: 1em 0;
+    margin: 10px 0;
+    * {
+        margin: 0;
+    }
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 16px;
+
+    img {
+        height: 30px;
+    }
+
+    .texts {
+        p {
+            font-weight: 300;
+            color: #707070;
+        }
+
+        h5 {
+            font-weight: 300;
+        }
+    }
+}

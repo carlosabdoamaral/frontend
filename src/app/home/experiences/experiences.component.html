@@ -1,0 +1,26 @@
+<div class="w-50 mx-auto" *ngIf="!!account && account.experiences!.length > 0">
+    <h6 class="text-secondary">Experiences</h6>
+
+    <mat-accordion>
+        <mat-expansion-panel
+            class="accordion"
+            *ngFor="let e of account!.experiences"
+            hideToggle
+        >
+            <mat-expansion-panel-header>
+                <div class="header">
+                    <img src="../../../assets/cists.png" alt="" />
+
+                    <div class="texts">
+                        <p>
+                            {{ e.seniority }} |
+                            {{ getExperienceDateRangeString(e) }}
+                        </p>
+                        <h5>{{ e.role }}</h5>
+                    </div>
+                </div>
+            </mat-expansion-panel-header>
+            <!-- <p>{{ e.description }}</p> -->
+        </mat-expansion-panel>
+    </mat-accordion>
+</div>
