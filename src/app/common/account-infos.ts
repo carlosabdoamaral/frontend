@@ -2,12 +2,12 @@ export interface Enterprise {
     id: number;
     title: string;
     url: string;
-    logoFilename: string;
+    img: string;
 }
 
 export interface Experience {
     id: number;
-    enteprise: Enterprise | null;
+    enterprise: Enterprise | null;
     seniority: string;
     role: string;
     url: string;
@@ -21,8 +21,8 @@ export interface Project {
     title: string;
     description: string;
     url: string | null;
-    filename: string;
-    ownerUrl: string;
+    img: string;
+    owner: string;
 }
 
 export interface Course {
@@ -32,7 +32,7 @@ export interface Course {
     startAt: Date;
     endAt: Date;
     certification: {
-        filename: string;
+        img: string;
         url: string;
     };
 }
@@ -43,7 +43,7 @@ export interface Account {
     socialname: string;
     age: number;
     description: string;
-    filename: string;
+    img: string;
     experiences: Experience[] | null;
     projects: Project[] | null;
     courses: Course[] | null;

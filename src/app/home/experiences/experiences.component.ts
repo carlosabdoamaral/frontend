@@ -1,8 +1,8 @@
 import { CommonModule } from '@angular/common';
 import { Component, Input, OnInit } from '@angular/core';
 import { MatExpansionModule } from '@angular/material/expansion';
-import * as moment from 'moment';
-import { Account, Experience } from 'src/app/common/account-infos';
+import moment from 'moment';
+import { Account, Enterprise, Experience } from 'src/app/common/account-infos';
 
 @Component({
     selector: 'app-experiences',
@@ -19,6 +19,7 @@ export class ExperiencesComponent implements OnInit {
     dateToString(dt: Date, format: string = 'MM/YYYY'): string {
         return moment(dt).utc(false).format(format);
     }
+
     getExperienceDateRangeString(e: Experience): string {
         const endMoment = moment(e.endAt).utc(false);
         const end = endMoment.isValid()
