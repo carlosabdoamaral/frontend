@@ -1,0 +1,11 @@
+<owl-carousel-o [options]="customOptions">
+    <ng-template carouselSlide *ngFor="let p of account?.projects">
+        <div class="item">
+            <img src="../../../assets/images/banner.jpg" alt="" />
+            <div class="content">
+                <h1>{{ p.title }}</h1>
+                <p>{{ p.description }}</p>
+            </div>
+        </div>
+    </ng-template>
+</owl-carousel-o>

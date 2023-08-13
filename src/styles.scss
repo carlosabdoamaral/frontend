@@ -15,6 +15,8 @@ $frontend-theme: mat.define-dark-theme(
 @include mat.all-component-themes($frontend-theme);
 
 @import './variables.scss';
+@import 'ngx-owl-carousel-o/lib/styles/scss/owl.carousel';
+@import 'ngx-owl-carousel-o/lib/styles/scss/owl.theme.default';
 
 html,
 body {

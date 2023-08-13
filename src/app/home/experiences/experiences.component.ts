@@ -50,4 +50,8 @@ export class ExperiencesComponent implements OnInit {
 
         return str;
     }
+
+    getExperienceImage(e: Enterprise | null): string {
+        return `../../../assets/images/${e?.img}`;
+    }
 }

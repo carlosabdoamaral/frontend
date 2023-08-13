@@ -1,21 +1,20 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { ExperiencesComponent } from './experiences/experiences.component';
-import {
-    Account,
-    Course,
-    Enterprise,
-    Experience,
-    Project,
-} from '../common/account-infos';
-import { HttpClient } from '@angular/common/http';
+import { Account, Enterprise } from '../common/account-infos';
 import { BannerComponent } from './banner/banner.component';
 import { AccountService } from '../service/account.service';
+import { ProjectsComponent } from './projects/projects.component';
 
 @Component({
     selector: 'app-home',
     standalone: true,
-    imports: [CommonModule, ExperiencesComponent, BannerComponent],
+    imports: [
+        CommonModule,
+        ExperiencesComponent,
+        BannerComponent,
+        ProjectsComponent,
+    ],
     templateUrl: './home.component.html',
     styleUrls: ['./home.component.scss'],
 })

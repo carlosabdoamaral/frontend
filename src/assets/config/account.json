@@ -4,37 +4,31 @@
     "social_name": "Carlos Amaral",
     "age": 19,
     "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
-    "img": "profile-picture.jpeg",
+    "img": "profile.png",
     "enterprises": [
         {
             "id": 1,
             "title": "Carlos Amaral",
             "url": "http://localhost:8080/",
-            "img": "profile-picture.jpeg"
+            "img": ""
         },
         {
             "id": 2,
             "title": "Centro de Inovação SESI Tecnologias para Saúde",
             "url": "http://localhost:8080/",
-            "img": "profile-picture.jpeg"
+            "img": "cists.png"
         },
         {
             "id": 3,
-            "title": "DB1",
+            "title": "DB1 Group",
             "url": "http://localhost:8080/",
-            "img": "profile-picture.jpeg"
+            "img": "db1.png"
         },
         {
             "id": 4,
-            "title": "+Dinheiro",
+            "title": "FIESC",
             "url": "http://localhost:8080/",
-            "img": "profile-picture.jpeg"
-        },
-        {
-            "id": 5,
-            "title": "Fiesc",
-            "url": "http://localhost:8080/",
-            "img": "profile-picture.jpeg"
+            "img": "fiesc.png"
         }
     ],
     "experiences": [
@@ -50,7 +44,7 @@
         },
         {
             "id": 2,
-            "id_enterprise": 1,
+            "id_enterprise": 4,
             "seniority": "Estágio",
             "role": "Técnico de Suporte",
             "url": "http://localhost:8080/",
@@ -60,7 +54,7 @@
         },
         {
             "id": 3,
-            "id_enterprise": 1,
+            "id_enterprise": 2,
             "seniority": "Estágio",
             "role": "Desenvolvedor Fullstack",
             "url": "http://localhost:8080/",
@@ -90,7 +84,7 @@
         },
         {
             "id": 6,
-            "id_enterprise": 1,
+            "id_enterprise": 3,
             "seniority": "Trainee",
             "role": "Desenvolvedor Backend",
             "url": "http://localhost:8080/",
@@ -100,7 +94,7 @@
         },
         {
             "id": 7,
-            "id_enterprise": 1,
+            "id_enterprise": 3,
             "seniority": "Trainee",
             "role": "Desenvolvedor Fullstack",
             "url": "http://localhost:8080/",
@@ -110,7 +104,7 @@
         },
         {
             "id": 8,
-            "id_enterprise": 1,
+            "id_enterprise": 3,
             "seniority": "Junior",
             "role": "Desenvolvedor Fullstack",
             "url": "http://localhost:8080/",
@@ -125,7 +119,47 @@
             "title": "WalletUp",
             "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
             "url": "http://localhost:8080/",
-            "img": "profile-picture.jpeg",
+            "img": "profile.png",
+            "owner": "Carlos Amaral"
+        },
+        {
+            "id": 1,
+            "title": "WalletUp",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+            "url": "http://localhost:8080/",
+            "img": "profile.png",
+            "owner": "Carlos Amaral"
+        },
+        {
+            "id": 1,
+            "title": "WalletUp",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+            "url": "http://localhost:8080/",
+            "img": "profile.png",
+            "owner": "Carlos Amaral"
+        },
+        {
+            "id": 1,
+            "title": "WalletUp",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+            "url": "http://localhost:8080/",
+            "img": "profile.png",
+            "owner": "Carlos Amaral"
+        },
+        {
+            "id": 1,
+            "title": "WalletUp",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+            "url": "http://localhost:8080/",
+            "img": "profile.png",
+            "owner": "Carlos Amaral"
+        },
+        {
+            "id": 1,
+            "title": "WalletUp",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+            "url": "http://localhost:8080/",
+            "img": "profile.png",
             "owner": "Carlos Amaral"
         }
     ],
@@ -137,7 +171,7 @@
             "start_at": "2023-03-03",
             "end_at": "2023-03-03",
             "certification": {
-                "img": "profile-picture.jpeg",
+                "img": "profile.png",
                 "url": "http://localhost:8080/"
             }
         }
